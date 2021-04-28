@@ -78,8 +78,15 @@ try:
 		print('Epoch: {} - Cumultative Loss: {:.6f} - Average Loss {:.6f}, - Accuracy {:.6f}'.format(e, r_loss, avrg_loss,precision))
 
 except:
-	import matplotlib.pyplot as plt
-	torch.save(net.state_dict(), config['save_path'])
-	plt.plot(loss_log)
-	plt.show()
-	input()
+	pass
+
+import matplotlib.pyplot as plt
+torch.save(net.state_dict(), config['save_path'])
+plt.plot(loss_log)
+plt.show()
+input()
+
+epochs_file.close()
+precision_file.close()
+
+
