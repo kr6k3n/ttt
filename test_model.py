@@ -53,3 +53,4 @@ with torch.no_grad():
       game_ended = sim.act(col=move[1], row=move[0])
       turn_count += 1
       print(sim)
+

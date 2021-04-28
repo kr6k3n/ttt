@@ -80,13 +80,7 @@ try:
 except:
 	pass
 
-import matplotlib.pyplot as plt
 torch.save(net.state_dict(), config['save_path'])
-plt.plot(loss_log)
-plt.show()
-input()
 
 epochs_file.close()
 precision_file.close()
-
-
