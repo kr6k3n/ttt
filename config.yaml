@@ -1,0 +1,3 @@
+epochs : 100
+learning_rate : 0.00005
+save_path : model.pt

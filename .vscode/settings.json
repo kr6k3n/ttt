@@ -1,0 +1,10 @@
+{
+  "python.pythonPath": "/home/solal/anaconda3/envs/torch/bin/python",
+  "files.exclude": {
+    "src/__pycache__": true,
+    "src/__init__.py": true,
+    "src/device.py": true,
+    "src/simulator.py": true
+  },
+  "workspace.isHidden": true
+}
